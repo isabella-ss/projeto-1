@@ -1,78 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Isabella | Dev</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabella | Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <nav>
-    <h1>Portfólio </h1>
-    <ul>
-      <li><a href="#about">Sobre</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#tools">Ferramentas</a></li>
-      <li><a href="#projects">Projetos</a></li>
-      <li><a href="#contact">Contato</a></li>
-    </ul>
-  </nav>
-</header>
+    <header>
+        <div class="logo">I.</div>
+        <nav>
+            <a href="#about">Sobre</a>
+            <a href="#skills">Skills</a>
+            <a href="#cv">Currículo</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
 
-<section class="hero">
-  <h2>Olá, eu sou Isabella 👩‍💻</h2>
-  <p>Desenvolvedora full stack dedicada por criar experiências incríveis.</p>
-  <a href="#projects" class="btn">Ver Projetos</a>
-</section>
+    <main>
+        <section class="hero">
+            <span class="intro-text">Olá, meu nome é</span>
+            <h1 class="main-title">Isabella.</h1>
+            <h2 class="sub-title">Software Engineer Student.</h2>
+            <p class="description">
+                Especialista em construir soluções digitais escaláveis e experiências de usuário fluidas. 
+                Atualmente focada no ecossistema Fullstack com ênfase em Java e Node.js.
+            </p>
+        </section>
 
-<section id="about" class="section">
-  <h2>Biografia</h2>
-  <p>
-    Sou desenvolvedora focada em criar interfaces modernas, acessíveis e bem estruturadas.
-    Tenho experiência com desenvolvimento web e adoro transformar ideias em produtos reais.
-  </p>
-</section>
+        <section id="about" class="reveal">
+            <h3 class="section-heading">01. Biografia</h3>
+            <div class="grid-layout">
+                <div class="bio-text">
+                    <p>Cursando <strong>Engenharia de Software</strong>, desenvolvo aplicações modernas focadas em performance e código limpo.</p>
+                </div>
+                <div class="card quote-card">
+                    <p>"Código limpo não é apenas sobre fazer funcionar, é sobre ser lido por humanos."</p>
+                </div>
+            </div>
+        </section>
 
-<section id="skills" class="section">
-  <h2>Skills</h2>
-  <div class="grid">
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>JavaScript</span>
-    <span>React</span>
-    <span>Node.js</span>
-    <span>TypeScript</span>
-  </div>
-</section>
+        <section id="skills" class="reveal">
+            <h3 class="section-heading">02. Tecnologias</h3>
+            <div class="skills-container">
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">JavaScript (ES6+)</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">HTML5 & CSS3</span>
+                <span class="skill-tag">SQL & NoSQL</span>
+            </div>
+        </section>
 
-<section id="tools" class="section">
-  <h2>Ferramentas</h2>
-  <div class="grid">
-    <span>Git</span>
-    <span>GitHub</span>
-    <span>VS Code</span>
-    <span>Figma</span>
-    <span>Docker</span>
-  </div>
-</section>
+        <section id="cv" class="reveal">
+            <h3 class="section-heading">03. Currículo</h3>
+            <div class="grid-layout">
+                <div class="card">
+                    <h4>Educação</h4>
+                    <p class="highlight">Engenharia de Software</p>
+                    <small>Bacharelado em andamento</small>
+                </div>
+                <div class="card">
+                    <h4>Experiência</h4>
+                    <p class="highlight">Desenvolvedora Fullstack</p>
+                    <small>Projetos Freelance & Open Source</small>
+                </div>
+            </div>
+            <div class="cta-container">
+                <a href="#" class="btn-primary">Download CV Completo</a>
+            </div>
+        </section>
+    </main>
 
-<section id="projects" class="section">
-  <h2>Projetos</h2>
-  <div id="repos" class="projects"></div>
-</section>
+    <footer>
+        <p>Desenvolvido com ⚡ por Isabella &copy; 2026</p>
+    </footer>
 
-<section id="contact" class="section">
-  <h2>Contato</h2>
-  <p>Email: isabella.saboia@sempreceub.com</p>
-  <p>GitHub: <a href="https://github.com/isabella-ss" target="_blank">meu github</a></p>
-</section>
-
-<footer>
-  <p>Isabella.dev 2026</p>
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
