@@ -2,7 +2,7 @@
  
   # 🌌 Portfolio - Isabella Saboia
 
-  > **Constução de Portfólio:** Esse repositório foi criado como parte da propostas de construção de um portfólio estruturado, integrado a utilização de versionamento Git-Github. visando organização de projetos.
+  > **Constução de Portfólio:** Esse repositório foi criado como parte da proposta de construção de um portfólio estruturado, integrado a utilização de versionamento Git-Github. visando organização de projetos.
 </div>
 
 ---
